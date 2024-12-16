@@ -1,3 +1,4 @@
+import { FAQs } from '@/components/sections/faqs';
 import { Header } from '@/components/sections/header';
 import { Hero } from '@/components/sections/hero';
 import { Intro } from '@/components/sections/intro';
@@ -12,6 +13,7 @@ export default function Home() {
             <Intro />
             <Projects />
             <Testimonials />
+            <FAQs />
         </>
     );
 }
