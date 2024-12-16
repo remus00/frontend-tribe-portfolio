@@ -49,7 +49,7 @@ export const navItems = [
     },
 ];
 
-const projects = [
+export const projects = [
     {
         name: 'Artisan Brew Co.',
         image: image1,
@@ -72,7 +72,7 @@ const projects = [
     },
 ];
 
-const testimonials = [
+export const testimonials = [
     {
         name: 'Sarah Chen',
         company: 'Pixel Perfect',
