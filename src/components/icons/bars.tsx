@@ -1,6 +1,6 @@
 export const Bars = () => {
     return (
-        <div className="inline-flex size-11 items-center justify-center rounded-full border border-stone-400">
+        <div className="inline-flex size-11 items-center justify-center rounded-full border border-stone-400 bg-stone-200">
             <svg
                 width="24"
                 height="24"
