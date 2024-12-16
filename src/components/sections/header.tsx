@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Button } from '../custom/button';
 import { Bars } from '../icons/bars';
 
 export const Header = () => {
@@ -15,9 +16,9 @@ export const Header = () => {
                     </div>
                     <div className="flex items-center gap-4">
                         <Bars />
-                        <button className="hidden h-11 items-center rounded-xl border border-red-orange-500 bg-red-orange-500 px-6 uppercase text-white md:inline-flex">
+                        <Button variant="primary" className="hidden md:inline-flex">
                             Contact me
-                        </button>
+                        </Button>
                     </div>
                 </div>
             </div>
