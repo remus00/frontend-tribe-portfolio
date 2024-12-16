@@ -15,7 +15,7 @@ export const Header = () => {
                     </div>
                     <div className="flex items-center gap-4">
                         <Bars />
-                        <button className="bg-red-orange-500 border-red-orange-500 hidden h-11 items-center rounded-xl border px-6 uppercase text-white md:inline-flex">
+                        <button className="hidden h-11 items-center rounded-xl border border-red-orange-500 bg-red-orange-500 px-6 uppercase text-white md:inline-flex">
                             Contact me
                         </button>
                     </div>
@@ -24,3 +24,5 @@ export const Header = () => {
         </header>
     );
 };
+
+/* 30.54 */
