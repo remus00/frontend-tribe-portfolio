@@ -3,7 +3,7 @@ import { Bars } from '../icons/bars';
 
 export const Header = () => {
     return (
-        <header>
+        <header className="fixed inset-0 h-20 w-full backdrop-blur-md">
             <div className="container !max-w-full">
                 <div className="flex h-20 items-center justify-between">
                     <div className="">
@@ -24,5 +24,3 @@ export const Header = () => {
         </header>
     );
 };
-
-/* 30.54 */
