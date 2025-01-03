@@ -6,7 +6,7 @@ import { ArrowUpRight } from '../icons/arrow-up-right';
 
 export const Footer = () => {
     return (
-        <footer className="bg-stone-900 text-white">
+        <footer id="contact" className="bg-stone-900 text-white">
             <div className="container">
                 <SectionWrapper>
                     <div className="flex items-center gap-3">

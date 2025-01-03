@@ -10,7 +10,7 @@ export const Testimonials = () => {
     const [testimonialsIndex, setTestimonialsIndex] = useState<number>(0);
 
     return (
-        <SectionWrapper>
+        <SectionWrapper id="testimonials">
             <h2 className="flex flex-col overflow-hidden text-4xl md:text-7xl lg:text-8xl">
                 <span className="whitespace-nowrap">
                     Some nice words from my past clients
