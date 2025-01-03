@@ -1,4 +1,5 @@
 import { FAQs } from '@/components/sections/faqs';
+import { Footer } from '@/components/sections/footer';
 import { Header } from '@/components/sections/header';
 import { Hero } from '@/components/sections/hero';
 import { Intro } from '@/components/sections/intro';
@@ -14,6 +15,7 @@ export default function Home() {
             <Projects />
             <Testimonials />
             <FAQs />
+            <Footer />
         </>
     );
 }
