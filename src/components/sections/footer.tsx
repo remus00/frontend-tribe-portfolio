@@ -1,15 +1,8 @@
+import { foooterNavItems } from '@/constants';
 import Link from 'next/link';
 import { Button } from '../custom/button';
 import { SectionWrapper } from '../custom/section-wrapper';
 import { ArrowUpRight } from '../icons/arrow-up-right';
-
-const navItems = [
-    { href: '#', label: 'Home' },
-    { href: '#', label: 'Projects' },
-    { href: '#', label: 'Testimonials' },
-    { href: '#', label: 'Faqs' },
-    { href: '#', label: 'Contacts' },
-];
 
 export const Footer = () => {
     return (
@@ -37,7 +30,7 @@ export const Footer = () => {
                         </div>
 
                         <nav className="mt-16 flex flex-col gap-8 md:mt-0 md:items-end">
-                            {navItems.map(({ href, label }, idx) => (
+                            {foooterNavItems.map(({ href, label }, idx) => (
                                 <Link key={idx} href={href}>
                                     <Button variant="text" className="text-lg">
                                         {label}

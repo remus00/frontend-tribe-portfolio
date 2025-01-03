@@ -26,7 +26,7 @@ export const faqs = [
     },
 ];
 
-export const navItems = [
+export const headerNavItems = [
     {
         label: 'About',
         href: '#intro',
@@ -47,6 +47,14 @@ export const navItems = [
         label: 'Contact',
         href: '#contact',
     },
+];
+
+export const foooterNavItems = [
+    { href: '#', label: 'Home' },
+    { href: '#', label: 'Projects' },
+    { href: '#', label: 'Testimonials' },
+    { href: '#', label: 'Faqs' },
+    { href: '#', label: 'Contacts' },
 ];
 
 export const projects = [
